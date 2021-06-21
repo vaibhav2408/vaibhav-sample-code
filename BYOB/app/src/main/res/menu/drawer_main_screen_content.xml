@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/today_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/whatsapp_message"
+            android:icon="@drawable/whatsapp_logo_transparent"
+            android:title="Whatsapp" />
+        <item
+            android:id="@+id/today_special"
+            android:icon="@drawable/ic_cheese_24dp"
+            android:title="Today's Cheese" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/timer"
+                android:icon="@drawable/ic_timer_black_24dp"
+                android:title="Timer" />
+            <item
+                android:id="@+id/tic_tac"
+                android:icon="@drawable/tic_tac_toe"
+                android:title="Tic-Tac" />
+            <item
+                android:id="@+id/hicker_watch"
+                android:icon="@drawable/hiker_icon"
+                android:title="Hiker's watch" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>
